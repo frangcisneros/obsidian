@@ -10,6 +10,19 @@ Las comidas no pueden ser subidas a bordo ni la limpieza del interior puede efec
 
 
 2. Calcule el tiempo de terminación más temprano utilizando CPM
+
+| TAREA | TIEMPO DE INICIO MAS INMEDIATO | TIEMPO DE TERMINACIÓN MAS BREVE |
+| ----- | ------------------------------ | ------------------------------- |
+| A     | 0 min                          | 15 min                          |
+| B     | 0 min                          | 25 min                          |
+| C     | 0 min                          | 30 min                          |
+| D     | 15 min                         | 30 min                          |
+| E     | 15 min                         | 40 min                          |
+| F     | 25 min                         | 45 min                          |
+| G     | 30 min                         | 50 min                          |
+| H     | 125 min                        | 135 min                         |
+El tiempo de terminación más temprano del proyecto es de 135 min
+
 3. Calcule el tiempo de terminación esperado más breve utilizando el método PERT, identifique la trayectoria crítica y determine la varianza del tiempo de terminación del proyecto.
 4. Cuál es la probabilidad de ser capaz de partir en una hora.
 5. La gerencia desea que el 95% de sus vuelos salgan a tiempo, suponiendo que también llegan a tiempo. ¿Cuál es la menor cantidad de tiempo (hasta el minuto más cercano) que la gerencia debería planear para el lapso entre la llegada a la puerta y la salida?
