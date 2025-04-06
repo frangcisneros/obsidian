@@ -20,36 +20,6 @@
               "icon": "lucide-file",
               "title": "Trabajo practico N°1"
             }
-          },
-          {
-            "id": "13a8be37bf46bb38",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "ej n3 red de proyectos"
-            }
-          }
-        ]
-      },
-      {
-        "id": "459ee56e56b8a272",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "39424c46d2e30e51",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Investigacion operativa/Trabajos practicos/Images/tabla ej n3.png"
-              },
-              "icon": "lucide-image",
-              "title": "tabla ej n3"
-            }
           }
         ]
       }

@@ -82,7 +82,24 @@ $$
 z = \frac{60 - 61.5}{3.131} = 0.479
 $$
 
-Entonces la probabilidad es 
+Entonces la probabilidad es (con interpolación):
+$$
+y = y_{0}+\frac{x-x_{0}}{x_{1}-x_{0}}\cdot \left( y_{1}-y_{0} \right)
+$$
+Donde, para el valor de 0.4 en la tabla:
+
+|   x0   |   x    |   x1   |
+| :----: | :----: | :----: |
+|  0.07  | 0.0790 | 0.0800 |
+|   y0   |   y    |   y1   |
+| 0.1808 | 0.1840 | 0.1844 |
+El valor calculado es $y = 0.1840$, donde calculamos la probabilidad:
+$$
+0.5 + 0.1840 = 0.684
+$$
+O sea una probabilidad de $68.4\%$.
 
 5. La gerencia desea que el 95% de sus vuelos salgan a tiempo, suponiendo que también llegan a tiempo. ¿Cuál es la menor cantidad de tiempo (hasta el minuto más cercano) que la gerencia debería planear para el lapso entre la llegada a la puerta y la salida?
+
+
 6. Escriba las conclusiones comparando ambos métodos, CPM y PERT. (tiempo de terminación, ruta crítica, etc.)
