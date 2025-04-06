@@ -8,23 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d488432d5ac32e7c",
+            "id": "4adc4bfef350a2ca",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -112.5,
-                  "y": -90.5,
-                  "zoom": 0
-                }
+                "file": "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Trabajo practico N°1"
+            }
+          },
+          {
+            "id": "e96f84159362e6e3",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ej n3 red de proyectos"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,11 +191,26 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d488432d5ac32e7c",
+  "active": "e96f84159362e6e3",
   "lastOpenFiles": [
-    "Mantenimiento.md",
-    "Untitled.canvas",
-    "Excalidraw/mantenimiento_diagrama.md",
+    "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
+    "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md",
+    "Investigacion operativa/Trabajos practicos/Excalidraw",
+    "Investigacion operativa/Trabajos practicos/Canvas/Untitled.canvas",
+    "Investigacion operativa/Trabajos practicos/Excalidraw/diagrama red ej n3.md",
+    "Investigacion operativa/Trabajos practicos/Canvas",
+    "Investigacion operativa/Trabajos practicos/Excalidraw",
+    "Investigacion operativa/Proyectos.md",
+    "Investigacion operativa/Trabajos practicos",
+    "Mantenimiento/Excalidraw/mantenimiento_diagrama.md",
+    "Mantenimiento/Canvas",
+    "Mantenimiento/Excalidraw",
+    "Investigacion operativa/Trabajos practicos/Images",
+    "Investigacion operativa/Trabajos practicos/Images/tabla ej n3.png",
+    "Mantenimiento/Mantenimiento.md",
+    "Investigacion operativa",
+    "Mantenimiento",
+    "Mantenimiento/Canvas/Untitled.canvas",
     "Excalidraw/Mantenimiento 2025-04-06 00.33.45.excalidraw.md",
     "Excalidraw/Mantenimiento 2025-04-06 00.25.38.excalidraw.md",
     "Excalidraw/Drawing 2025-04-06 00.24.57.excalidraw.md",
