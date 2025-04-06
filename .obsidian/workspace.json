@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0d75fa7988bf8f8b",
+        "id": "177772d76c5aae0d",
         "type": "tabs",
         "children": [
           {
@@ -20,20 +20,53 @@
               "icon": "lucide-file",
               "title": "Trabajo practico N°1"
             }
-          },
-          {
-            "id": "e96f84159362e6e3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "ej n3 red de proyectos"
-            }
           }
         ]
+      },
+      {
+        "id": "4ec0d3e9e2161e48",
+        "type": "split",
+        "children": [
+          {
+            "id": "e5f483716eefd644",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7e56437cefae2446",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Trabajo practico N°1"
+                }
+              }
+            ]
+          },
+          {
+            "id": "459ee56e56b8a272",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "39424c46d2e30e51",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "Investigacion operativa/Trabajos practicos/Images/tabla ej n3.png"
+                  },
+                  "icon": "lucide-image",
+                  "title": "tabla ej n3"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -192,8 +225,9 @@
   },
   "active": "4adc4bfef350a2ca",
   "lastOpenFiles": [
-    "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md",
+    "Investigacion operativa/Trabajos practicos/Images/tabla ej n3.png",
     "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
+    "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md",
     "Investigacion operativa/Trabajos practicos/Excalidraw",
     "Investigacion operativa/Trabajos practicos/Canvas/Untitled.canvas",
     "Investigacion operativa/Trabajos practicos/Excalidraw/diagrama red ej n3.md",
@@ -205,7 +239,6 @@
     "Mantenimiento/Canvas",
     "Mantenimiento/Excalidraw",
     "Investigacion operativa/Trabajos practicos/Images",
-    "Investigacion operativa/Trabajos practicos/Images/tabla ej n3.png",
     "Mantenimiento/Mantenimiento.md",
     "Investigacion operativa",
     "Mantenimiento",
