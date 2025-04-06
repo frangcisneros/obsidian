@@ -4,37 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "207c63b19589b98f",
+        "id": "0d75fa7988bf8f8b",
         "type": "tabs",
         "children": [
           {
-            "id": "58dbe348527377ac",
+            "id": "d488432d5ac32e7c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Mantenimiento.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": -112.5,
+                  "y": -90.5,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Mantenimiento"
-            }
-          },
-          {
-            "id": "c12d72c0959c3474",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-04-06 00.05.32.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-04-06 00.05.32.excalidraw"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +47,7 @@
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -181,20 +171,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "465e04a77abff673",
+  "active": "d488432d5ac32e7c",
   "lastOpenFiles": [
     "Mantenimiento.md",
-    "Excalidraw/Drawing 2025-04-06 00.05.32.excalidraw.md",
+    "Untitled.canvas",
+    "Excalidraw/mantenimiento_diagrama.md",
+    "Excalidraw/Mantenimiento 2025-04-06 00.33.45.excalidraw.md",
+    "Excalidraw/Mantenimiento 2025-04-06 00.25.38.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-06 00.24.57.excalidraw.md",
     "Excalidraw",
     "Mantenimiento programado.md",
     "Welcome.md"

@@ -1,0 +1,314 @@
+{
+  "edges": [
+    {
+      "fromNode": "b16f132c8bb081d9",
+      "fromSide": "top",
+      "id": "07dd20cc338be753",
+      "styleAttributes": {
+      },
+      "toNode": "d5ddf14fbea13587",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "b16f132c8bb081d9",
+      "fromSide": "top",
+      "id": "b296fd513e3eca74",
+      "styleAttributes": {
+      },
+      "toNode": "a93a1a7ca608b3c4",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "b16f132c8bb081d9",
+      "fromSide": "top",
+      "id": "2e23558512b580e3",
+      "styleAttributes": {
+      },
+      "toNode": "ccf316c87de8021a",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "b16f132c8bb081d9",
+      "fromSide": "top",
+      "id": "700cf455df9eac31",
+      "styleAttributes": {
+        "pathfindingMethod": null
+      },
+      "toNode": "50749cbbf50bfe4e",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "b16f132c8bb081d9",
+      "fromSide": "right",
+      "id": "6a1fa58adac13967",
+      "styleAttributes": {
+      },
+      "toNode": "e07a3b386f0c31ab",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b16f132c8bb081d9",
+      "fromSide": "right",
+      "id": "f236e7f1f8531363",
+      "styleAttributes": {
+      },
+      "toNode": "ffaca71145913936",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b16f132c8bb081d9",
+      "fromSide": "left",
+      "id": "e6007dc183062569",
+      "styleAttributes": {
+      },
+      "toNode": "596396e5487d0d43",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "596396e5487d0d43",
+      "fromSide": "bottom",
+      "id": "6c8d0118a4e3a450",
+      "styleAttributes": {
+      },
+      "toNode": "f1b55a5e23dc5f28",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "596396e5487d0d43",
+      "fromSide": "bottom",
+      "id": "b5a2fb27a5069ad6",
+      "styleAttributes": {
+      },
+      "toNode": "b90fa297c5686ca7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f1b55a5e23dc5f28",
+      "fromSide": "bottom",
+      "id": "7d3c5d535343cf16",
+      "styleAttributes": {
+      },
+      "toNode": "68872544e19274d9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f1b55a5e23dc5f28",
+      "fromSide": "bottom",
+      "id": "7a1a07a28debbb26",
+      "styleAttributes": {
+      },
+      "toNode": "ddc6c34eb23be21c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b90fa297c5686ca7",
+      "fromSide": "bottom",
+      "id": "28252ab9f3ecb70e",
+      "styleAttributes": {
+      },
+      "toNode": "315d5182d4023f8c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b90fa297c5686ca7",
+      "fromSide": "bottom",
+      "id": "0388c67b346ba920",
+      "styleAttributes": {
+      },
+      "toNode": "f36a95e3636b94ee",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b16f132c8bb081d9",
+      "fromSide": "bottom",
+      "id": "bd1fe72c65b4d682",
+      "styleAttributes": {
+      },
+      "toNode": "ddc6c34eb23be21c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b16f132c8bb081d9",
+      "fromSide": "bottom",
+      "id": "6d087e52fdde82ef",
+      "styleAttributes": {
+        "pathfindingMethod": null
+      },
+      "toNode": "f36a95e3636b94ee",
+      "toSide": "right"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "5",
+      "height": 60,
+      "id": "b16f132c8bb081d9",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "USUARIO",
+      "type": "text",
+      "width": 132,
+      "x": -52,
+      "y": -180
+    },
+    {
+      "height": 58,
+      "id": "68872544e19274d9",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "agregar pieza existente",
+      "type": "text",
+      "width": 192,
+      "x": -580,
+      "y": 150
+    },
+    {
+      "height": 60,
+      "id": "d5ddf14fbea13587",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "editar tarea",
+      "type": "text",
+      "width": 145,
+      "x": -201,
+      "y": -270
+    },
+    {
+      "height": 60,
+      "id": "ccf316c87de8021a",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "eliminar maquina",
+      "type": "text",
+      "width": 188,
+      "x": 59,
+      "y": -390
+    },
+    {
+      "height": 60,
+      "id": "a93a1a7ca608b3c4",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "eliminar tarea",
+      "type": "text",
+      "width": 145,
+      "x": -124,
+      "y": -390
+    },
+    {
+      "height": 60,
+      "id": "50749cbbf50bfe4e",
+      "styleAttributes": {
+        "border": null,
+        "shape": null,
+        "textAlign": "center"
+      },
+      "text": "editar maquina",
+      "type": "text",
+      "width": 180,
+      "x": 175,
+      "y": -300
+    },
+    {
+      "height": 60,
+      "id": "e07a3b386f0c31ab",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "editar pieza",
+      "type": "text",
+      "width": 145,
+      "x": 158,
+      "y": -180
+    },
+    {
+      "height": 60,
+      "id": "ffaca71145913936",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "eliminar pieza",
+      "type": "text",
+      "width": 145,
+      "x": 158,
+      "y": -110
+    },
+    {
+      "height": 60,
+      "id": "f1b55a5e23dc5f28",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "agregar pieza/s",
+      "type": "text",
+      "width": 145,
+      "x": -492,
+      "y": 35
+    },
+    {
+      "height": 60,
+      "id": "ddc6c34eb23be21c",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "crear pieza",
+      "type": "text",
+      "width": 145,
+      "x": -360,
+      "y": 149
+    },
+    {
+      "height": 60,
+      "id": "315d5182d4023f8c",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "agregar tarea existente",
+      "type": "text",
+      "width": 195,
+      "x": -201,
+      "y": 149
+    },
+    {
+      "height": 58,
+      "id": "f36a95e3636b94ee",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "crear tarea",
+      "type": "text",
+      "width": 145,
+      "x": 14,
+      "y": 150
+    },
+    {
+      "height": 60,
+      "id": "b90fa297c5686ca7",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "agregar ultima/s tarea/s",
+      "type": "text",
+      "width": 188,
+      "x": -129,
+      "y": 35
+    },
+    {
+      "height": 60,
+      "id": "596396e5487d0d43",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "crear maquina",
+      "type": "text",
+      "width": 145,
+      "x": -287,
+      "y": -80
+    }
+  ]
+}
