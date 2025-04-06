@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2715cb66f0bd5793",
+        "id": "207c63b19589b98f",
         "type": "tabs",
         "children": [
           {
-            "id": "90882b107414abdb",
+            "id": "58dbe348527377ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mantenimiento programado.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Mantenimiento programado"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1c452a79782d57bf",
@@ -178,7 +173,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "90882b107414abdb",
+  "active": "58dbe348527377ac",
   "lastOpenFiles": [
     "Mantenimiento programado.md",
     "Welcome.md"
