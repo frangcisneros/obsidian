@@ -19,40 +19,70 @@ La red de proyectos se dibuja con los tiempos *más probables* ($m$).
 | A     | 0 min                          | 15 min                          |
 | B     | 0 min                          | 25 min                          |
 | C     | 0 min                          | 30 min                          |
-| D     | 15 min                         |                                 |
-| E     | 15 min                         |                                 |
-| F     | 25 min                         |                                 |
-| G     | 30 min                         |                                 |
-| H     |                                |                                 |
+| D     | 15 min                         | 30 min                          |
+| E     | 15 min                         | 30 min                          |
+| F     | 25 min                         | 45 min                          |
+| G     | 30 min                         | 50 min                          |
+| H     | 50 min                         | 60 min                          |
+El tiempo de terminación más temprano del proyecto es de 60 min, lo cual corresponde a la suma de todos los tiempos de terminación de las tareas de la ruta critica, en este caso A, D, G y H.
+
 3. Calcule el tiempo de terminación esperado más breve utilizando el método PERT, identifique la trayectoria crítica y determine la varianza del tiempo de terminación del proyecto
-El calculo de *inicio más inmediato* de una tarea es el máximo de los tiempos de terminación de sus tareas predecesoras (o sea el tiempo pesimista).
 
-El tiempo de *terminación más breve o inmediato* es la suma del tiempo de inicio más inmediato más el tiempo de la tarea en cuestión (el cual se usará el tiempo medio)
+El calculo de la media se hace de la siguiente forma:
+$$
+\frac{a+4m+b}{6}
+$$
 
-El tiempo de terminación más temprano del proyecto es de 125 min
-La ruta critica seria la de A-D-G-H ya que es la secuencia más larga.
-
-La *varianza del tiempo de terminación del proyecto* se calcula como la suma de las varianzas de los tiempos de terminación de las tareas a lo largo de esa trayectoria crítica.
-
-La desv. estandar o varianza %% ¿VARIANZA = DESV. ESTANDAR? %% se calcula de la siguiente manera:
+El de la desv. estandar:
 $$
 \frac{b-a}{6}
 $$
-%% EN EL PP LO ELEVA AL CUADRADO A LA SUMA NO SE POR QUE%%
+
+Y la varianza:
+$$
+$$
+
+$$
+\left( \frac{b-a}{6} \right)^2
+$$
+
+Donde:
+- a -> más optimista.
+- b -> más pesimista.
+- m -> más probable.
+
+| TAREA | a  | m  | b  | MEDIA       | DESV. ESTANDAR | VARIANZA    |
+|-------|----|----|----|-------------|----------------|-------------|
+| A     | 12 | 15 | 20 | 15,33333333 | 1,333333333    | 1,777777778 |
+| B     | 20 | 25 | 35 | 25,83333333 | 2,5            | 6,25        |
+| C     | 27 | 30 | 40 | 31,16666667 | 2,166666667    | 4,694444444 |
+| D     | 12 | 15 | 20 | 15,33333333 | 1,333333333    | 1,777777778 |
+| E     | 12 | 15 | 20 | 15,33333333 | 1,333333333    | 1,777777778 |
+| F     | 15 | 20 | 30 | 20,83333333 | 2,5            | 6,25        |
+| G     | 15 | 20 | 30 | 20,83333333 | 2,5            | 6,25        |
+| H     | 10 | 10 | 10 | 10          | 0              | 0           |
 
 
-| TAREA | A   | B   |
-| ----- | --- | --- |
-| A     |     |     |
-| B     |     |     |
-| C     |     |     |
-| D     |     |     |
-| E     |     |     |
-| F     |     |     |
-| G     |     |     |
-| H     |     |     |
-
+%% NO ESTOY SEGURO DE LO SIGUIENTE %%
+Para calcular el tiempo esperado de la terminación del proyecto se suman todos los valores de la ruta critica la cual es la misma que se identifico anteriormente (A, D, G y H), lo cual da como resultado:
+$$
+15.333+15.333+20.833+10 = 61.5
+$$
+La varianza se calcula como la sumatoria de las varianzas de la ruta critica:
+$$
+1.777+1.777+6.25+0=9.805
+$$
+La desv. estandar es:
+$$
+\sqrt{9.805} = 3.131
+$$
 
 4. Cuál es la probabilidad de ser capaz de partir en una hora.
+$$
+z = \frac{60 - 61.5}{3.131} = 0.479
+$$
+
+Entonces la probabilidad es 
+
 5. La gerencia desea que el 95% de sus vuelos salgan a tiempo, suponiendo que también llegan a tiempo. ¿Cuál es la menor cantidad de tiempo (hasta el minuto más cercano) que la gerencia debería planear para el lapso entre la llegada a la puerta y la salida?
 6. Escriba las conclusiones comparando ambos métodos, CPM y PERT. (tiempo de terminación, ruta crítica, etc.)
