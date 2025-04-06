@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1c452a79782d57bf",
@@ -163,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 500.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,7 +178,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "90882b107414abdb",
+  "active": "ce442b65b06c5222",
   "lastOpenFiles": [
     "Mantenimiento programado.md",
     "Welcome.md"
