@@ -1,7 +1,3 @@
-![[mantenimiento_diagrama | 1000]]
-
-
-
-
+![[mantenimiento_diagrama |1000]]
 
 ![[Untitled.canvas]]

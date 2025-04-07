@@ -191,5 +191,5 @@ Antes de calcular $EAC$ debemos definir $PAC$ que representa lo presupuestado al
 Entonces podemos finalmente calcular el $EAC$ que es la estimación del coste final del proyecto (estimación al completar):
 
 $$
-EAC = PAC / IDC = \$120\times 10^{6} / 0.714 = 168.067 \times 10^{6}
+EAC = PAC / IDC = \$120\times 10^{6} / 0.714 = \$168.067 \times 10^{6}
 $$

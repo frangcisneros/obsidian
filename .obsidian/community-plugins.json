@@ -1,8 +1,8 @@
 [
-  "obsidian-git",
   "obsidian-excalidraw-plugin",
   "obsidian-icon-folder",
   "obsidian-linter",
   "advanced-canvas",
-  "symbols-prettifier"
+  "symbols-prettifier",
+  "number-headings-obsidian"
 ]

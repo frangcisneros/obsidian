@@ -282,7 +282,11 @@
   "lintOnFileChange": true,
   "displayLintOnFileChangeNotice": true,
   "settingsConvertedToConfigKeyValues": true,
-  "foldersToIgnore": [],
+  "foldersToIgnore": [
+    "Investigacion operativa/Trabajos practicos/Excalidraw",
+    "Mantenimiento/Excalidraw",
+    ""
+  ],
   "filesToIgnore": [],
   "linterLocale": "system-default",
   "logLevel": "ERROR",

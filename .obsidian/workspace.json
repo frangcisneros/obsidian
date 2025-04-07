@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e9affc899d811dc6",
+        "id": "978ee20d72068992",
         "type": "tabs",
         "children": [
           {
-            "id": "d0f8aea33b7256a4",
+            "id": "763a5c0145d688a8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "Investigacion operativa/Proyectos teoría.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "Proyectos teoría"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1c452a79782d57bf",
@@ -138,30 +141,22 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Investigacion operativa/Proyectos teoría.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "ce442b65b06c5222",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Proyectos teoría"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 500.5
+    "width": 500.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,30 +166,29 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d0f8aea33b7256a4",
+  "active": "763a5c0145d688a8",
   "lastOpenFiles": [
     "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md",
     "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
+    "Investigacion operativa/Proyectos teoría.md",
     "Investigacion operativa/Trabajos practicos/Images/tabla ej n3.png",
+    "Mantenimiento/Canvas/Untitled.canvas",
+    "Mantenimiento/Mantenimiento.md",
     "Investigacion operativa/Trabajos practicos/Excalidraw",
     "Investigacion operativa/Trabajos practicos/Canvas/Untitled.canvas",
     "Investigacion operativa/Trabajos practicos/Excalidraw/diagrama red ej n3.md",
     "Investigacion operativa/Trabajos practicos/Canvas",
     "Investigacion operativa/Trabajos practicos/Excalidraw",
-    "Investigacion operativa/Proyectos.md",
     "Investigacion operativa/Trabajos practicos",
     "Mantenimiento/Excalidraw/mantenimiento_diagrama.md",
     "Mantenimiento/Canvas",
     "Mantenimiento/Excalidraw",
     "Investigacion operativa/Trabajos practicos/Images",
-    "Mantenimiento/Mantenimiento.md",
     "Investigacion operativa",
     "Mantenimiento",
-    "Mantenimiento/Canvas/Untitled.canvas",
     "Excalidraw/Mantenimiento 2025-04-06 00.33.45.excalidraw.md",
     "Excalidraw/Mantenimiento 2025-04-06 00.25.38.excalidraw.md",
     "Excalidraw/Drawing 2025-04-06 00.24.57.excalidraw.md",
