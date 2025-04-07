@@ -71,7 +71,7 @@
   "removeTransclusionQuoteSigns": true,
   "iframelyAllowed": true,
   "pngExportScale": 1,
-  "exportWithTheme": true,
+  "exportWithTheme": false,
   "exportWithBackground": true,
   "exportPaddingSVG": 10,
   "exportEmbedScene": false,

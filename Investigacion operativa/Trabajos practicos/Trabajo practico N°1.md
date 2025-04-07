@@ -1,4 +1,7 @@
+%% CORREGIR LAS TABLAS QUE TIENEN COMAS %%
+
 # Ejercicio N°3
+
 La gerencia de World Airways desea determinar la cantidad mínima de tiempo necesaria para que un aeroplano de la vuelta, desde el momento en que alcanza la puerta hasta que se encuentra listo para salir por ella. Para tal efecto, el administrador de vuelo ha identificado las siguientes tareas que se necesitan llevar a cabo entre la llegada y la partida.
 
 ![[tabla ej n3.png]]
@@ -8,9 +11,7 @@ Las comidas no pueden ser subidas a bordo ni la limpieza del interior puede efec
 1. Trace la red de proyectos
 La red de proyectos se dibuja con los tiempos *más probables* ($m$).
 
-
-![[ej n3 red de proyectos | center | 10000]]
-
+![[ej n3 red de proyectos |1000 | center]]
 
 2. Calcule el tiempo de terminación más temprano utilizando CPM
 
@@ -24,21 +25,25 @@ La red de proyectos se dibuja con los tiempos *más probables* ($m$).
 | F     | 25 min                         | 45 min                          |
 | G     | 30 min                         | 50 min                          |
 | H     | 50 min                         | 60 min                          |
+
 El tiempo de terminación más temprano del proyecto es de 60 min, lo cual corresponde a la suma de todos los tiempos de terminación de las tareas de la ruta critica, en este caso A, D, G y H.
 
 3. Calcule el tiempo de terminación esperado más breve utilizando el método PERT, identifique la trayectoria crítica y determine la varianza del tiempo de terminación del proyecto
 
 El calculo de la media se hace de la siguiente forma:
+
 $$
 \frac{a+4m+b}{6}
 $$
 
 El de la desv. estandar:
+
 $$
 \frac{b-a}{6}
 $$
 
 Y la varianza:
+
 $$
 $$
 
@@ -47,6 +52,7 @@ $$
 $$
 
 Donde:
+
 - a -> más optimista.
 - b -> más pesimista.
 - m -> más probable.
@@ -62,17 +68,20 @@ Donde:
 | G     | 15 | 20 | 30 | 20,83333333 | 2,5            | 6,25        |
 | H     | 10 | 10 | 10 | 10          | 0              | 0           |
 
-
-%% NO ESTOY SEGURO DE LO SIGUIENTE %%
 Para calcular el tiempo esperado de la terminación del proyecto se suman todos los valores de la ruta critica la cual es la misma que se identifico anteriormente (A, D, G y H), lo cual da como resultado:
+
 $$
 15.333+15.333+20.833+10 = 61.5
 $$
+
 La varianza se calcula como la sumatoria de las varianzas de la ruta critica:
+
 $$
 1.777+1.777+6.25+0=9.805
 $$
+
 La desv. estandar es:
+
 $$
 \sqrt{9.805} = 3.131
 $$
@@ -83,23 +92,66 @@ z = \frac{60 - 61.5}{3.131} = 0.479
 $$
 
 Entonces la probabilidad es (con interpolación):
+
 $$
 y = y_{0}+\frac{x-x_{0}}{x_{1}-x_{0}}\cdot \left( y_{1}-y_{0} \right)
 $$
+
 Donde, para el valor de 0.4 en la tabla:
 
 |   x0   |   x    |   x1   |
-| :----: | :----: | :----: |
+|:----: |:----: |:----: |
 |  0.07  | 0.0790 | 0.0800 |
 |   y0   |   y    |   y1   |
 | 0.1808 | 0.1840 | 0.1844 |
+
 El valor calculado es $y = 0.1840$, donde calculamos la probabilidad:
+
 $$
 0.5 + 0.1840 = 0.684
 $$
+
 O sea una probabilidad de $68.4\%$.
 
 5. La gerencia desea que el 95% de sus vuelos salgan a tiempo, suponiendo que también llegan a tiempo. ¿Cuál es la menor cantidad de tiempo (hasta el minuto más cercano) que la gerencia debería planear para el lapso entre la llegada a la puerta y la salida?
 
+Debemos calcular:
+
+$$
+0.95 - 0.5 = x = 0.45
+$$
+
+Luego utilizando la tabla calculamos el valor de $z$:
+
+$$
+z = 1.65
+$$
+
+Y por ultimo la cantidad de minutos que la gerencia debería planear para el lapso entre la llegada a la puerta y la salida:
+
+$$
+\left( 1.65 \cdot 3.131 \right)+61.5 = 66.666
+$$
 
 6. Escriba las conclusiones comparando ambos métodos, CPM y PERT. (tiempo de terminación, ruta crítica, etc.)
+
+Tanto como por CPM, como por PERT se llega a la misma ruta critica, sin embargo los tiempos de terminación son diferentes, siendo de 60 en CPM y 61.5 con PERT. Teniendo el metodo PERT más variables tenidas en cuenta, y considerando que se utiliza cuando se tiene poca experiencia en la tarea a desarrollar, puede llegar a ser más preciso y nos da una mejor lectura de como se desarrollarían las actividades a traves de probabilidades.
+
+# Ejercicio N°4
+
+Usted es el Project Manager de un proyecto que tiene una duración de 12 meses acordadas con su cliente. Cuenta con un presupuesto total de $120 millones, donde presupuesta la producción de 24 aerogeneradores a razón de 2 unidades mensuales. La situación al corte del 6 mes es la siguiente: lleva gastado $70 millones y ha producido 10 aerogeneradores.
+
+El Director de Operaciones le pide el siguiente informe:
+
+1. VC.
+2. VP.
+3. IDC.
+4. EAC.
+
+En cada caso, de una breve explicación.
+
+Primero debemos dar algunas deficiones:
+
+- CRTR (costo real del trabajo realizado) -> $\$ 70 000 000$
+- CPTP (costo presupuestado del $T$ programado) -> $\$ 60 000 000$.
+- CPTR (costo presupu)

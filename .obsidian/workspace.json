@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "177772d76c5aae0d",
+        "id": "ba79b3e256f1e988",
         "type": "tabs",
         "children": [
           {
-            "id": "4adc4bfef350a2ca",
+            "id": "9e9285e5cfa32f7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,18 @@
               },
               "icon": "lucide-file",
               "title": "Trabajo practico N°1"
+            }
+          },
+          {
+            "id": "3a47c6b7c42880e7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ej n3 red de proyectos"
             }
           }
         ]
@@ -78,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1c452a79782d57bf",
@@ -179,7 +190,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4adc4bfef350a2ca",
+  "active": "9e9285e5cfa32f7a",
   "lastOpenFiles": [
     "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md",
     "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
