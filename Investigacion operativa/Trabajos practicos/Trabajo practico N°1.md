@@ -143,15 +143,53 @@ Usted es el Project Manager de un proyecto que tiene una duración de 12 meses a
 
 El Director de Operaciones le pide el siguiente informe:
 
-1. VC.
-2. VP.
-3. IDC.
-4. EAC.
+1. $VC$.
+2. $VP$.
+3. $IDC$.
+4. $EAC$.
 
 En cada caso, de una breve explicación.
 
-Primero debemos dar algunas deficiones:
+| Producción total | Costo total          | Costo unitario presupuestado                 | Aerogeneradores a los 6 meses |
+| ---------------- | -------------------- | -------------------------------------------- | ----------------------------- |
+| $24$             | $\$120\times 10^{6}$ | $\$120\times 10^{6} / 24 = \$5\times 10^{6}$ | $10$                          |
 
-- CRTR (costo real del trabajo realizado) -> $\$ 70 000 000$
-- CPTP (costo presupuestado del $T$ programado) -> $\$ 60 000 000$.
-- CPTR (costo presupu)
+Siendo $CRTR$ el costo del trabajo realizado hasta el momento:
+
+$$
+CRTR = \$ 70\times 10^{6}
+$$
+
+$CPTP$ es el costo presupuestado del $t$ programado, o sea si se realizan $2$ unidades mensuales, a los 6 meses deberían haber $12$ unidades y un gasto de $\$ 60\times 10^{6}$.
+
+Por ultimo $CPTR$ es el costo presupuestado del trabajo real realizado:
+
+$$
+10 \cdot \$5\times 10^{6} = \$50\times 10^{6}
+$$
+
+Podemos empezar a calcular $VC$ (variación de costes):
+
+$$
+VC = CPTR - CRTR = \$50\times 10^{6} - \$ 70\times 10^{6} = -\$ 20\times 10^{6}
+$$
+
+$VP$ es la variación de programación:
+
+$$
+VP = CPTR - CPTP = \$50\times 10^{6} - \$ 60\times 10^{6} = - \$ 10\times 10^{6}
+$$
+
+La tasa a la que estamos consumiendo los recursos (o eficiencia), es el índice de desempeño de costes o $IDC$:
+
+$$
+IDC = CPTR / CRTR = \$50\times 10^{6} / \$ 70\times 10^{6} = 0.714
+$$
+
+Antes de calcular $EAC$ debemos definir $PAC$ que representa lo presupuestado al completar, el cual es el valor total presupuestado, o sea en este caso $\$120\times 10^{6}$.
+
+Entonces podemos finalmente calcular el $EAC$ que es la estimación del coste final del proyecto (estimación al completar):
+
+$$
+EAC = PAC / IDC = \$120\times 10^{6} / 0.714 = 168.067 \times 10^{6}
+$$
