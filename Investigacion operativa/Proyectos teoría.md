@@ -40,16 +40,62 @@ Se deben responder ciertas preguntas:
 2. La terminación de cada tarea debe ser necesaria para la conclusión del proyecto.
 3. El tamaño de una tarea debe estar en proporción con el control que usted pueda ejercer.
 
-%% SIGUE LA DIAPOSITIVA 6 DEL PP PLANIFICACIÓN PROYECTO %%
+### 4.1.2. Obtención de estimaciones de tiempo para cada tarea
+
+El tiempo total que lleva completar todo el proyecto depende de cuanto tiempo lleva realizar cada tarea individual. Se debe obtener el tiempo requerido para cada tarea, esto se puede hacer:
+
+1. Confiando en experiencias pasadas en proyectos similares.
+2. Consultando con las personas a cargo de cada tarea individual.
+3. Usando datos anteriores.
 
 # 5. Red de proyecto
 
-Una red de proyecto se utiliza para comprender de una mejor forma las relaciones entre las tareas individuales. Una red consiste en una colección infinita de *nodos* y *flechas*. Una flecha conecta un nodo con otro
+Una red de proyecto se utiliza para comprender de una mejor forma las relaciones entre las tareas individuales. Una red consiste en una colección infinita de *nodos* y *flechas*. Una flecha conecta un nodo con otro.
 
-# 6. Ruta critica
+# 6. Administración de proyectos usando tiempos determinísticos (CPM)
+
+Nos interesa responder las siguientes preguntas:
+
+1. ¿Qué tan pronto puede completarse todo el proyecto?
+2. ¿Qué tareas son críticas? Las tareas críticas son las que generan un retraso en la conclusión del proyecto.
+
+# 7. Determinación del tiempo de proyecto
+
+Para encontrar este tiempo siempre se arranca desde el principio, determinando, para cada tarea, lo siguiente:
+
+1. El *tiempo de inicio más inmediato* es el tiempo más inmediato en que esa tarea puede iniciarse.
+2. El *tiempo de terminación más breve* es el tiempo más breve en el que esa tarea puede concluir.
+
+- Regla 1: para calcular el tiempo de inicio de una tarea particular, debe conocer los tiempos de terminación de cada tarea predecesora inmediata.
+- Regla 2: el tiempo de inicio más inmediato de una tarea de la que se conocen los tiempos de terminación de todas sus tareas predecesoras inmediatas es el máximo de esos tiempos de terminación.
+- Regla 3: tiempo de terminación más breve = tiempo de inicio más inmediato + tiempo de tarea.
+- Regla 4: para calcular el último tiempo de terminación de una tarea particular, debemos conocer los últimos tiempos de inicio de cada tarea sucesora inmediata.
+- Regla 5: respecto a una tarea de la que se conocen los últimos tiempos de inicio de todas sus tareas sucesoras inmediatas, el último tiempo de terminación de esa tarea es el mínimo de los últimos tiempos de inicio de todas las tareas sucesoras inmediatas.
+- Regla 6: ultimo tiempo de inicio = ultimo tiempo de terminación - tiempo de tarea.
+
+# 8. Identificar las tareas críticas
+
+Crítica significa que un retraso en cualquiera de estas tareas ocasiona un retraso en todo el proyecto, los retrasos ocasionan costos adicionales, ingresos perdidos e inclumplimiento de las obligaciones contractuales.
+
+Debemos calcular lo siguiente:
+
+1. *El último tiempo de terminación* que es lo más tarde que puede concluirse una tarea mientras permita que el proyecto se complete lo más pronto posible.
+2. *El último tiempo de inicio* que es lo más tarde que puede iniciarse una tarea, de tal forma que finalice en su último tiempo de terminación.
+
+Cualquier actividad cuyo último tiempo de inicio sea igual que su tiempo de inicio más inmediato calculado en la sección anterior es crítica.
+
+%% MEZCLAR ESTA SECCIÓN CON LAS REGLAS ANTERIORES %%
+
+Habiendo hecho uso de las "reglas" y los calculos pertinentes, podemos identificar las tareas críticas y no críticas, para cada tarea calculamos el *tiempo de retraso* que es la diferencia entre los tiempos de inicio últimos y más inmediatos: tiempo de retraso = ultimo tiempo de inicio - tiempo de inicio más inmediato.
+
+Los tiempos de retraso que ubicaremos en una tabla, representan la cantidad de tiempo según la cual la tarea correspondiente puede retrasarse sin retrasar todo el proyecto, *suponiendo que todas las demás tareas se realizan a tiempo*.
+
+%% TENGO QUE SEGUIR CON PERT, DIAPO 16 %%
+
+# 9. Ruta critica
 
 La ruta critica siempre es la misma.
 
-# 7. Varianza
+# 10. Varianza
 
 La media es el promedio de un valor, la desv. estandar es que tan lejos estamos de la media, la varianza es la dispersión de los datos.

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "978ee20d72068992",
+        "id": "1ff653c9d6295434",
         "type": "tabs",
         "children": [
           {
-            "id": "763a5c0145d688a8",
+            "id": "ea49152a6e721043",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investigacion operativa/Proyectos teoría.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Proyectos teoría"
+              "title": "New tab"
             }
           }
         ]
@@ -169,11 +165,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "763a5c0145d688a8",
+  "active": "ea49152a6e721043",
   "lastOpenFiles": [
+    "Investigacion operativa/Proyectos teoría.md",
     "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md",
     "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
-    "Investigacion operativa/Proyectos teoría.md",
     "Investigacion operativa/Trabajos practicos/Images/tabla ej n3.png",
     "Mantenimiento/Canvas/Untitled.canvas",
     "Mantenimiento/Mantenimiento.md",
