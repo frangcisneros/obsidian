@@ -1,3 +1,3 @@
-![[mantenimiento_diagrama |1000]]
+![[mantenimiento_DB|1000]]
 
-![[Untitled.canvas]]
+![[mantenimiento_funcionamiento]]

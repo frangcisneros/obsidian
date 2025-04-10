@@ -4,17 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "1ff653c9d6295434",
+        "id": "62f7cd74b8c19180",
         "type": "tabs",
         "children": [
           {
-            "id": "ea49152a6e721043",
+            "id": "3b3d843343629279",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Mantenimiento/Excalidraw/mantenimiento_ejemplo.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "mantenimiento_ejemplo"
+            }
+          }
+        ]
+      },
+      {
+        "id": "23b9ac1fb37af519",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "558d85316ecc26c7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mantenimiento/Excalidraw/mantenimiento_DB.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "mantenimiento_DB"
+            }
+          },
+          {
+            "id": "ce9fd32e6aa118d5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mantenimiento/Excalidraw/mantenimiento_funcionamiento.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "mantenimiento_funcionamiento"
             }
           }
         ]
@@ -165,22 +197,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ea49152a6e721043",
+  "active": "3b3d843343629279",
   "lastOpenFiles": [
+    "Mantenimiento/Excalidraw/mantenimiento_funcionamiento.md",
+    "Mantenimiento/Excalidraw/mantenimiento_ejemplo.md",
+    "Mantenimiento/Excalidraw/mantenimiento_DB.md",
+    "Mantenimiento/Mantenimiento.md",
+    "Mantenimiento/Canvas/Untitled.canvas",
+    "Mantenimiento/Canvas",
     "Investigacion operativa/Proyectos teoría.md",
     "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md",
     "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
     "Investigacion operativa/Trabajos practicos/Images/tabla ej n3.png",
-    "Mantenimiento/Canvas/Untitled.canvas",
-    "Mantenimiento/Mantenimiento.md",
     "Investigacion operativa/Trabajos practicos/Excalidraw",
     "Investigacion operativa/Trabajos practicos/Canvas/Untitled.canvas",
     "Investigacion operativa/Trabajos practicos/Excalidraw/diagrama red ej n3.md",
     "Investigacion operativa/Trabajos practicos/Canvas",
     "Investigacion operativa/Trabajos practicos/Excalidraw",
     "Investigacion operativa/Trabajos practicos",
-    "Mantenimiento/Excalidraw/mantenimiento_diagrama.md",
-    "Mantenimiento/Canvas",
     "Mantenimiento/Excalidraw",
     "Investigacion operativa/Trabajos practicos/Images",
     "Investigacion operativa",
