@@ -4,49 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "62f7cd74b8c19180",
+        "id": "6890bffcbce6732b",
         "type": "tabs",
         "children": [
           {
-            "id": "3b3d843343629279",
+            "id": "755e7064ba90fc5b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Mantenimiento/Excalidraw/mantenimiento_ejemplo.md"
+                "file": "Mantenimiento/Mantenimiento.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "mantenimiento_ejemplo"
-            }
-          }
-        ]
-      },
-      {
-        "id": "23b9ac1fb37af519",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "558d85316ecc26c7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Mantenimiento/Excalidraw/mantenimiento_DB.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "mantenimiento_DB"
-            }
-          },
-          {
-            "id": "ce9fd32e6aa118d5",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Mantenimiento/Excalidraw/mantenimiento_funcionamiento.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "mantenimiento_funcionamiento"
+              "icon": "lucide-file",
+              "title": "Mantenimiento"
             }
           }
         ]
@@ -106,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1c452a79782d57bf",
@@ -197,11 +168,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3b3d843343629279",
+  "active": "755e7064ba90fc5b",
   "lastOpenFiles": [
-    "Mantenimiento/Excalidraw/mantenimiento_funcionamiento.md",
-    "Mantenimiento/Excalidraw/mantenimiento_ejemplo.md",
     "Mantenimiento/Excalidraw/mantenimiento_DB.md",
+    "Mantenimiento/Excalidraw/mantenimiento_ejemplo.md",
+    "Mantenimiento/Excalidraw/mantenimiento_funcionamiento.md",
     "Mantenimiento/Mantenimiento.md",
     "Mantenimiento/Canvas/Untitled.canvas",
     "Mantenimiento/Canvas",
