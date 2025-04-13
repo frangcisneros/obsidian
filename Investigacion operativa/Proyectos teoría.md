@@ -90,12 +90,14 @@ Habiendo hecho uso de las "reglas" y los calculos pertinentes, podemos identific
 
 Los tiempos de retraso que ubicaremos en una tabla, representan la cantidad de tiempo según la cual la tarea correspondiente puede retrasarse sin retrasar todo el proyecto, *suponiendo que todas las demás tareas se realizan a tiempo*.
 
-%% TENGO QUE SEGUIR CON PERT, DIAPO 16 %%
+# 9. Administración de proyectos usando tiempos de tarea probabilísticos (PERT)
 
-# 9. Ruta critica
+Cuando un proyceto está formadoo por actividades que en su mayoría son similares a otras ya realizadas un gran número de veces, generalmente se utiliza la programación CPM, pero cuando hay actividades para la cuales no tenemox experiencia en la dificultad sobre la estimación de la duración de las tareas es significativa, en este caso se puede conjeturar basandose en cualquier experiencia
+
+# 10. Ruta critica
 
 La ruta critica siempre es la misma.
 
-# 10. Varianza
+# 11. Varianza
 
 La media es el promedio de un valor, la desv. estandar es que tan lejos estamos de la media, la varianza es la dispersión de los datos.

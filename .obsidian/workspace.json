@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "18054c988e29d4ea",
+        "id": "4b2559879543691d",
         "type": "tabs",
         "children": [
           {
-            "id": "f75b003d5a540fa9",
+            "id": "1b4064db4ae47bda",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Investigacion operativa/Proyectos teoría.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Proyectos teoría"
             }
           }
         ]
@@ -76,19 +80,21 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Investigacion operativa/Proyectos teoría.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Proyectos teoría"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 266.51103591918945
   },
   "right": {
     "id": "1c452a79782d57bf",
@@ -163,15 +169,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f75b003d5a540fa9",
+  "active": "8cd038f283faba64",
   "lastOpenFiles": [
-    "Laboratorios Fisica/2025/Laboratorios 2025.md",
+    "Mantenimiento/Excalidraw/mantenimiento_interfaz.md",
+    "Mantenimiento/Excalidraw/mantenimiento_funcionamiento.md",
     "Mantenimiento/Excalidraw/mantenimiento_ejemplo.md",
+    "Mantenimiento/Excalidraw/mantenimiento_DB.md",
+    "Laboratorios Fisica/2025/Laboratorios 2025.md",
     "Mantenimiento/Mantenimiento.md",
     "Laboratorios Fisica/2025",
     "Laboratorios Fisica",
-    "Mantenimiento/Excalidraw/mantenimiento_DB.md",
-    "Mantenimiento/Excalidraw/mantenimiento_funcionamiento.md",
     "Mantenimiento/Canvas/Untitled.canvas",
     "Mantenimiento/Canvas",
     "Investigacion operativa/Proyectos teoría.md",
