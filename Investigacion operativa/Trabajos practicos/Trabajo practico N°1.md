@@ -260,3 +260,19 @@ Entonces podemos finalmente calcular el $EAC$ que es la estimación del coste fi
 $$
 EAC = PAC / IDC = \$120\times 10^{6} / 0.714 = \$168.067 \times 10^{6}
 $$
+# 4. Ejercicio N°5
+Usted esta realizando el seguimiento del proyecto constructivo de cuatro tramos de ruta, tal como se muestra en el excel y según el siguiente detalle presupuestado:
+
+1. Tramo 1: costo estimado $350 millones (CPTP)
+2. Tramo 2: costo estimado $240 millones (CPTP)
+3. Tramo 3: costo estimado $200 millones (CPTP)
+4. Tramo 4: costo estimado $195 millones (CPTP)
+
+![[imagen ejercicio 5.png]]
+
+En una instancia de control, el Tramo 1se encuentra iniciado y totalmente terminado con un costo contable (CRTR) de $390 millones, el tramo 2 se encuentra iniciado y totalmente concluido con un coste contable (CRTR) de $320 millones, el tramo 3 se encuentra iniciado y 65% de avance con un costo (CRTR) de $100 millones. El tramo 4 no se ha comenzado  pero si se ha incurrido en gastos de administración por un importe de (CRTR) $25 millones. Determinar y explicar cada índice solicitado en el contexto del proyecto:
+
+1. VC
+2. VP
+3. IDC
+4. EAC
