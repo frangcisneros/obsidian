@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4b2559879543691d",
+        "id": "6f9d88efa8004276",
         "type": "tabs",
         "children": [
           {
-            "id": "1b4064db4ae47bda",
+            "id": "03532d433f241e4d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investigacion operativa/Proyectos teoría.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Proyectos teoría"
+              "title": "New tab"
             }
           }
         ]
@@ -80,17 +76,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Investigacion operativa/Proyectos teoría.md",
+                "file": "Administración de sistemas/TP N°3 - Indicadores y KPIs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Proyectos teoría"
+              "title": "Outline of TP N°3 - Indicadores y KPIs"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -169,8 +164,82 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8cd038f283faba64",
+  "floating": {
+    "id": "b0ef53956ff16780",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f4fb0f4014c543f6",
+        "type": "window",
+        "children": [
+          {
+            "id": "b98fa903c479c988",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cd5134973ab7b379",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Trabajo practico N°1"
+                }
+              }
+            ]
+          },
+          {
+            "id": "1777ae2c4fd7a25c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bae1f3d3f034f332",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Trabajo practico N°1"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1314,
+        "y": -25,
+        "width": 1442,
+        "height": 902,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "3bce40f601dd0f09",
   "lastOpenFiles": [
+    "Investigacion operativa/Trabajos practicos/Excalidraw/ej n1 red de proyectos.md",
+    "Investigacion operativa/Dudas.md",
+    "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
+    "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md",
+    "Investigacion operativa/Imagenes",
+    "Investigacion operativa/Imagenes/dudas inv operativa.png",
+    "Pasted image 20250413210207.png",
+    "Pasted image 20250413210203.png",
+    "Investigacion operativa/Proyectos teoría.md",
+    "Administración de sistemas/TP N°3 - Indicadores y KPIs.md",
+    "Administración de sistemas/Imagenes/columna_total.png",
+    "Administración de sistemas/Imagenes/datos_ordenados_por_fecha.png",
+    "Administración de sistemas/Imagenes/Pasted image 20250413184924.png",
+    "Administración de sistemas/Imagenes",
+    "Administración de sistemas",
     "Mantenimiento/Excalidraw/mantenimiento_interfaz.md",
     "Mantenimiento/Excalidraw/mantenimiento_funcionamiento.md",
     "Mantenimiento/Excalidraw/mantenimiento_ejemplo.md",
@@ -181,9 +250,6 @@
     "Laboratorios Fisica",
     "Mantenimiento/Canvas/Untitled.canvas",
     "Mantenimiento/Canvas",
-    "Investigacion operativa/Proyectos teoría.md",
-    "Investigacion operativa/Trabajos practicos/Excalidraw/ej n3 red de proyectos.md",
-    "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
     "Investigacion operativa/Trabajos practicos/Images/tabla ej n3.png",
     "Investigacion operativa/Trabajos practicos/Excalidraw",
     "Investigacion operativa/Trabajos practicos/Canvas/Untitled.canvas",
@@ -191,9 +257,6 @@
     "Investigacion operativa/Trabajos practicos/Canvas",
     "Investigacion operativa/Trabajos practicos/Excalidraw",
     "Investigacion operativa/Trabajos practicos",
-    "Mantenimiento/Excalidraw",
-    "Investigacion operativa/Trabajos practicos/Images",
-    "Investigacion operativa",
     "Excalidraw/Mantenimiento 2025-04-06 00.33.45.excalidraw.md",
     "Excalidraw/Mantenimiento 2025-04-06 00.25.38.excalidraw.md",
     "Excalidraw/Drawing 2025-04-06 00.24.57.excalidraw.md",

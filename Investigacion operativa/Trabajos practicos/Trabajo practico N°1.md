@@ -1,6 +1,73 @@
 %% CORREGIR LAS TABLAS QUE TIENEN COMAS %%
 
-# Ejercicio N°3
+# 1. Ejercicio N°1
+
+La siguiente tabla muestras las actividades de reubicar una Línea Eléctrica de media tensión, debido a problemas de abastecimiento eléctrico de la zona cuando se produce el encendido del alumbrado público, causando problemas con cortes a los clientes de la zona.
+
+1. Desarrolle el diagrama de red correspondiente
+![[ej n1 red de proyectos |1000]]
+
+2. Resuelva el mismo con el método CPM. Encuentre la Ruta Crítica y el mínimo tiempo de terminación del Proyecto.
+El mínimo de tiempo para terminar el proyecto es 20.64 días, esto se obtiene sumando todos los tiempos de las tareas críticas.
+
+La ruta crítica es: A -> C -> E -> F -> J -> L -> M -> P -> Q -> S -> T
+
+3. Cuál es el tiempo mínimo de conclusión del proyecto mediante el método PERT.
+Calculamos la media de los tiempos de la ruta crítica:
+
+| TAREA | A    | M    | B    | MEDIA       |
+|-------|------|------|------|-------------|
+| A     | 0.4  | 1.1  | 1.7  | 1.083333333 |
+| C     | 0.55 | 0.95 | 1.5  | 0.975       |
+| E     | 2    | 3.2  | 4    | 3.133333333 |
+| F     | 3    | 3.7  | 4.2  | 3.666666667 |
+| J     | 2.5  | 3.7  | 6.8  | 4.016666667 |
+| L     | 1.8  | 2.1  | 2.5  | 2.116666667 |
+| M     | 1.5  | 2.3  | 2.7  | 2.233333333 |
+| P     | 0.08 | 0.11 | 0.12 | 0.106666667 |
+| Q     | 0.3  | 0.48 | 0.52 | 0.456666667 |
+| S     | 0.7  | 0.9  | 1.5  | 0.966666667 |
+| T     | 1.8  | 2.1  | 2.4  | 2.1         |
+
+El tiempo mínimo entonces es = 20.855
+
+4. Cuál es la probabilidad que el proyecto se termine en 23 días.
+5. Indique la Ruta Critica
+6. Cuál es el tiempo TOTAL que dispone para la realización de las actividades "Coordinación de ubicación de postes" y "Desenergización y conmutación de líneas"
+7. Si para "Cubrir conductores antiguos" se demoran 5 días, cual es el tiempo de conclusión del proyecto.
+8. Escriba las conclusiones comparando ambos métodos, CPM y PERT. (tiempo de terminación, ruta crítica, etc.)
+
+TO: tiempo óptimo
+
+TN: tiempo normal
+
+TP: tiempo pésimo
+
+| N°  | DESCRIPCION                              | PRECED. | TO   | TN   | TP   |
+| --- | ---------------------------------------- | ------- | ---- | ---- | ---- |
+| A   | Revisión del Trabajo                     | -       | 0.4  | 1.1  | 1.7  |
+| B   | Clientes – Interrupción temporal         | A       | 0.2  | 0.55 | 0.7  |
+| C   | Almacenes de requisición                 | A       | 0.55 | 0.95 | 1.5  |
+| D   | Reconocimiento de trabajo                | A       | 0.32 | 0.48 | 0.9  |
+| E   | Obtención de postes y materiales         | C,D     | 2    | 3.2  | 4    |
+| F   | Distribución de postes                   | E       | 3    | 3.7  | 4.2  |
+| G   | Coordinación de ubicación de postes      | D       | 0.31 | 0.47 | 0.8  |
+| H   | Preparación                              | G       | 0.29 | 0.53 | 0.7  |
+| I   | Cavar agujeros                           | H       | 2    | 2.8  | 6    |
+| J   | Preparar y colocar postes                | F,I     | 2.5  | 3.7  | 6.8  |
+| K   | Cubrir conductores antiguos              | F,I     | 0.5  | 1.1  | 1.5  |
+| L   | Colocar nuevos conductores               | J,K     | 1.8  | 2.1  | 2.5  |
+| M   | Instalación de material restante         | L       | 1.5  | 2.3  | 2.7  |
+| N   | Tendido de conductor                     | L       | 1.3  | 2    | 2.4  |
+| O   | Poda de arboles                          | D       | 1.5  | 2.4  | 2.5  |
+| P   | Desenergización y conmutación de líneas  | B,M,N,O | 0.08 | 0.11 | 0.12 |
+| Q   | Energización de nueva línea              | P       | 0.3  | 0.48 | 0.52 |
+| R   | Limpieza                                 | Q       | 0.5  | 1.1  | 1.3  |
+| S   | Remoción del conductor anterior          | Q       | 0.7  | 0.9  | 1.5  |
+| T   | Remoción de postes anteriores            | S       | 1.8  | 2.1  | 2.4  |
+| U   | Devolución de materiales a los almacenes | I       | 1.9  | 2    | 2.4  |
+
+# 2. Ejercicio N°3
 
 La gerencia de World Airways desea determinar la cantidad mínima de tiempo necesaria para que un aeroplano de la vuelta, desde el momento en que alcanza la puerta hasta que se encuentra listo para salir por ella. Para tal efecto, el administrador de vuelo ha identificado las siguientes tareas que se necesitan llevar a cabo entre la llegada y la partida.
 
@@ -137,7 +204,7 @@ $$
 
 Tanto como por CPM, como por PERT se llega a la misma ruta critica, sin embargo los tiempos de terminación son diferentes, siendo de 60 en CPM y 61.5 con PERT. Teniendo el metodo PERT más variables tenidas en cuenta, y considerando que se utiliza cuando se tiene poca experiencia en la tarea a desarrollar, puede llegar a ser más preciso y nos da una mejor lectura de como se desarrollarían las actividades a traves de probabilidades.
 
-# Ejercicio N°4
+# 3. Ejercicio N°4
 
 Usted es el Project Manager de un proyecto que tiene una duración de 12 meses acordadas con su cliente. Cuenta con un presupuesto total de $120 millones, donde presupuesta la producción de 24 aerogeneradores a razón de 2 unidades mensuales. La situación al corte del 6 mes es la siguiente: lleva gastado $70 millones y ha producido 10 aerogeneradores.
 
