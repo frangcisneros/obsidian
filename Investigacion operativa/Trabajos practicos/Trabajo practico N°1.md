@@ -260,7 +260,9 @@ Entonces podemos finalmente calcular el $EAC$ que es la estimación del coste fi
 $$
 EAC = PAC / IDC = \$120\times 10^{6} / 0.714 = \$168.067 \times 10^{6}
 $$
+
 # 4. Ejercicio N°5
+
 Usted esta realizando el seguimiento del proyecto constructivo de cuatro tramos de ruta, tal como se muestra en el excel y según el siguiente detalle presupuestado:
 
 1. Tramo 1: costo estimado $350 millones (CPTP)
