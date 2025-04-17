@@ -23,6 +23,8 @@ La primera entrega de un laboratorio tiene una fecha pactada que se debe respeta
 
 Para recuperar un laboratorio por *incumplimiento de las fechas pactadas*, se deberá *seguir entregando el laboratorio hasta obtener la aprobación*. Una vez aprobado, se realizará una presentación oral en la que se confeccionará un *póster* (ejemplos en el campus), y se formularán preguntas sobre la realización del laboratorio y, si fuera necesario, sobre la parte teórica.
 
+Las recuperaciones son hasta fin de año, no hay límite de fechas para la realización de las mismas, sin embargo tener en cuenta que las clases terminan en Noviembre, lo cual implica que deben administrar el tiempo a consciencia, si quieren rendir todos juntos la ultima semana, es imposible.
+
 # 5. Selección del tema
 
 ### 5.1.1. Primer y segundo laboratorio (errores)
