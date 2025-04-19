@@ -152,44 +152,55 @@ Este proceso, es sin duda uno de los que requiere de más esfuerzo y que implica
 
 Debe estimarse la cantidad de esfuerzo de trabajo requerido y la cantidad de recursos para completar la actividad. Lo cual permite determinar la cantidad de periodos de trabajo (duración de la actividad) necesarios para completar la actividad. Se deben documentar todos los datos y supuestos que respaldan el estimado de la duración de la actividad.
 
-**1-**      **Entradas**
+## 11.1. Entradas
 
 - Plan de Gestión del Cronograma
 - Lista de Actividades con sus atributos
-- Recursos Requeridos para la Actividades. Los requisitos de los recursos asignados a las actividades, en cuanto a eficiencia y capacidad, afectarán a la duración. Por ejemplo, la duración de una actividad del Cronograma pensada para dos ingenieros sénior aumenta si sólo es posible asignar uno con experiencia suficiente. A medida que se agregan recursos o se aplican recursos más ó menos especializados a algunas de las actividades, su duración puede disminuir ó aumentar. También afectan la cantidad, disponibilidad y rendimiento de los equipos, herramientas y recursos materiales. Efectivamente, todos estos parámetros podrían afectar significativamente a la estimación de la duración de las actividades.
-- Calendario de recursos. La asignación de recursos a una actividad y su disponibilidad, influyen sobre la duración de la misma.
-- Enunciado del alcance del proyecto. A la hora de realizar la estimación de la duración de las actividades, deben tenerse en cuenta las restricciones y supuestos contemplados en la declaración del alcance.
-- Registro de riesgos. Salida del proceso El registro de riesgos proporciona una lista de riesgos junto con los resultados del análisis de riesgos y de la planificación de la respuesta a los riesgos.
+- Recursos Requeridos para la Actividades.
+Los requisitos de los recursos asignados a las actividades, en cuanto a eficiencia y capacidad, afectarán a la duración. Por ejemplo, la duración de una actividad del Cronograma pensada para dos ingenieros sénior aumenta si sólo es posible asignar uno con experiencia suficiente. A medida que se agregan recursos o se aplican recursos más ó menos especializados a algunas de las actividades, su duración puede disminuir ó aumentar. También afectan la cantidad, disponibilidad y rendimiento de los equipos, herramientas y recursos materiales. Efectivamente, todos estos parámetros podrían afectar significativamente a la estimación de la duración de las actividades.
+- Calendario de recursos.
+La asignación de recursos a una actividad y su disponibilidad, influyen sobre la duración de la misma.
+- Enunciado del alcance del proyecto.
+A la hora de realizar la estimación de la duración de las actividades, deben tenerse en cuenta las restricciones y supuestos contemplados en la declaración del alcance.
+- Registro de riesgos.
+Salida del proceso El registro de riesgos proporciona una lista de riesgos junto con los resultados del análisis de riesgos y de la planificación de la respuesta a los riesgos.
 - Estructura de desglose de recursos (RBS) Resources Breakdown Structure
-- Factores ambientales y activos de los procesos de la organización. Como factores ambientales que pueden influir en el proceso podemos considerar las métricas de productividad o bases de datos de estimados de duración. Como activos, información histórica, calendarios del proyecto, metodología de planificación o lecciones aprendidas.
+- Factores ambientales y activos de los procesos de la organización.
+Como factores ambientales que pueden influir en el proceso podemos considerar las métricas de productividad o bases de datos de estimados de duración. Como activos, información histórica, calendarios del proyecto, metodología de planificación o lecciones aprendidas.
 
-**2-**      **Herramientas y Técnica**
+## 11.2. Herramientas y Técnica
 
-- Juicio de expertos. Miembros del equipo o expertos con experiencia en proyectos similares aportan información sobre el estimado de las duraciones.
-- Estimación análoga. Esta herramienta utiliza parámetros de proyectos similares anteriores para hacer la estimación actual. Como por ejemplo duraciones, presupuesto, complejidad, etc. Que suele utilizarse cuando existe una cantidad limitada de información. Utiliza información histórica y el juicio de expertos. Generalmente es menos costosa y emplea menos tiempo que otros métodos de estimación. Aunque por el contrario es menos exacta. Se conoce también como Estimación Descendente.
-- Estimación paramétrica. Relación estadística entre datos históricos y otras variables para determinar la estimación de parámetros de una actividad. Utiliza valores como rendimientos estadísticos y datos del Proyecto actual. De esta forma se puede determinar cuantitativamente la duración de la actividad. Multiplicando la cantidad de trabajo a realizar por el rendimiento. Este método permite obtener valores más precisos.
-- Estimación por tres valores. Este método toma en consideración el grado de incertidumbre y riesgo de la estimación. Técnica de Revisión y Evaluación de Programas (método PERT). Utiliza tres valores estimados para definir el rango aproximado de duración de una actividad:
+- Juicio de expertos.
+Miembros del equipo o expertos con experiencia en proyectos similares aportan información sobre el estimado de las duraciones.
+- Estimación análoga.
+Esta herramienta utiliza parámetros de proyectos similares anteriores para hacer la estimación actual. Como por ejemplo duraciones, presupuesto, complejidad, etc. Que suele utilizarse cuando existe una cantidad limitada de información. Utiliza información histórica y el juicio de expertos. Generalmente es menos costosa y emplea menos tiempo que otros métodos de estimación. Aunque por el contrario es menos exacta. Se conoce también como Estimación Descendente.
+- Estimación paramétrica.
+Relación estadística entre datos históricos y otras variables para determinar la estimación de parámetros de una actividad. Utiliza valores como rendimientos estadísticos y datos del Proyecto actual. De esta forma se puede determinar cuantitativamente la duración de la actividad. Multiplicando la cantidad de trabajo a realizar por el rendimiento. Este método permite obtener valores más precisos.
+- Estimación por tres valores.
+Este método toma en consideración el grado de incertidumbre y riesgo de la estimación. Técnica de Revisión y Evaluación de Programas (método PERT). Utiliza tres valores estimados para definir el rango aproximado de duración de una actividad:
 
 * MÁS PROBABLE (B)
 * OPTIMISTA (A)
 * PESIMISTA (C)
 * ESPERADA (M)
 
-Media:
+![[ditribucion beta.jpg]]
 
-media:
+En la técnica PERT, el tiempo de la actividad se considera como una variable aleatoria según una distribución de probabilidad Beta como se presenta en el gráfico a continuación: Las fórmulas estadísticas detrás de la distribución PERT se resumen en la tabla a continuación:
+
+Media:
 
 $$
 M=\frac{a+4b+c}{6}
 $$
 
-desv estandar
+Desv. estandar
 
 $$
 \sigma=\frac{c-a}{6}
 $$
 
-varianza
+Varianza
 
 $$
 \sigma^{2}
@@ -207,23 +218,28 @@ $$
 \sum_{}^{}\sigma^{2}
 $$
 
-# 12. Estimación de los tiempos de terminación de tareas
+## 11.3. Estimación de los tiempos de terminación de tareas
 
 Los tiempos de terminación de estas tareas son bastantes variables debido a la incertidumbre de las condiciones climatológicas, la obtención de suministros, el mantenimiento de las relaciones laborales, etc. Así pues, una sola estimación del tiempo requiere el conocimiento de la *distribución de probabilidad* de los tiempos de terminación de cada tarea.
 
 En el contexto de las tareas de un proyecto, obtenemos tres estimaciones de tiempo para cada tarea:
 
- Tiempo ***más optimista***, a, es decir, el tiempo más corto en el que la tarea puede hacerse.
-
- Tiempo ***más pesimista***, b, es decir, el tiempo más largo que se puede llevar una tarea dentro de lo razonable.
-
- Tiempo ***más probable***, m, es decir, el tiempo que la tarea requiere con más frecuencia en circunstancias normales
+- Tiempo ***más optimista***, $a$, es decir, el tiempo más corto en el que la tarea puede hacerse.
+- Tiempo ***más pesimista***, $b$, es decir, el tiempo más largo que se puede llevar una tarea dentro de lo razonable.
+- Tiempo ***más probable***, $m$, es decir, el tiempo que la tarea requiere con más frecuencia en circunstancias normales
 
 Para una distribución beta, estas tres estimaciones de tiempos se combinan para obtener el valor esperado (medio) y la desviación estándar del tiempo de terminación de una tarea, de acuerdo con las siguientes fórmulas:
 
-Tiempo de tarea esperado es la media.
+$$
+\text{Tiempo de tarea esperado}=\frac{a+4m+b}{6}
+$$
 
-# 13. Analaisis probabilistico del tiempo de terminacion de proyectos
+$$
+\text{Desviación estandar}=\frac{b-a}{6}
+$$
+
+
+# 12. Analaisis probabilistico del tiempo de terminacion de proyectos
 
 Recordemos que el tiempo de terminación del proyecto calculado en la sección anterior es el tiempo de terminación *esperado*.  El tiempo de terminación real puede variar debido a que los mismos tiempos de terminación de las tareas son variables. Puesto que el tiempo de terminación esperado de 30 semanas, hasta cierto grado, no es confiable, el gerente de construcción deberá hacerse preguntas como las siguientes:
 
@@ -245,15 +261,15 @@ Tiempo esperado de terminación de proyectos = suma de los tiempos esperados de 
 
 Varianza del tiempo de terminación del proyecto = suma de las varianzas de los tiempos de terminación de las tareas a lo largo de esa trayectoria crítica.
 
-# 14. Ruta critica
+# 13. Ruta critica
 
 La ruta critica siempre es la misma.
 
-# 15. Varianza
+# 14. Varianza
 
 La media es el promedio de un valor, la desv. estandar es que tan lejos estamos de la media, la varianza es la dispersión de los datos.
 
-# 16. CPM o PERT
+# 15. CPM o PERT
 
 La principal diferencia entre el método de PERT y la ruta crítica CPM es el nivel de certeza en torno a la duración de las actividades.
 
@@ -270,7 +286,7 @@ Ambos analizan los siguientes componentes:
 - Duración estimada de cada tarea.
 - Dependencias de las tareas.
 
-# 17. Seguimiento de proyectos (poner en una hoja aparte)
+# 16. Seguimiento de proyectos (poner en una hoja aparte)
 
 En la mayoría de los proyectos, el personal no sabe medir con realismo el rendimiento del trabajo.
 

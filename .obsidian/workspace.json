@@ -62,7 +62,8 @@
               "title": "Outline of Proyectos teoría"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -144,6 +145,7 @@
   },
   "active": "dec4a17676167d9f",
   "lastOpenFiles": [
+    "Investigacion operativa/Imagenes/ditribucion beta.jpg",
     "Investigacion operativa/Introducción.md",
     "Investigacion operativa/Excalidraw/metodologia de la inv. operativa.md",
     "Investigacion operativa/Excalidraw",
