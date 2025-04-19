@@ -1,8 +1,8 @@
-# 1. ¿Qué Es un proyecto?
+# 1. ¿Qué es un proyecto?
 
 ## 1.1. Proyecto
 
-Un proyecto es una combinación de [[#1.2. Tareas o actividades|actividades]] [[#1.3. Interrelaciones|interrelacionadas]] que deben ejecutarse en un cierto orden antes que el trabajo pueda terminarse.
+Un proyecto es una combinación de actividades interrelacionadas que deben ejecutarse en un cierto orden antes que el trabajo pueda terminarse.
 
 ## 1.2. Tareas o actividades
 
@@ -16,37 +16,50 @@ La *sucesión de tareas* que definen al proyecto *no se repiten en el futuro y n
 
 Todas las tareas tienen una predecesora y una sucesora excepto la primera y la ultima.
 
-# 2. Dirección de proyectos
+# 2. Ejemplos de proyectos
+
+Las posibilidades son ilimitadas y van desde cualquier trabajo, desde el que hacemos todos los días hasta los proyectos más complicados y de mayor envergadura.
+
+# 3. Dirección de proyectos
 
 Dirigir un proyecto es *planificar, programar y controlar* una serie de actividades para conseguir objetivos ya definidos en cuanto a rendimiento, costos y tiempo, utilizando recursos disponibles para su ejecución.
 
-Los recursos son escasos y es importante que el director de proyectos tenga especial cuidado en la asignación de los mismos.
+*Los recursos son escasos* y es importante que el director de proyectos tenga especial cuidado en la asignación de los mismos.
 
-# 3. Planificación de proyectos
+Una complicación frecuente en la dirección de proyectos son los proyectos multidisciplinarios ya que tiene que manejarse con grupos que hablan lenguajes distintos en cuanto a lo técnico y que requieren de métodos y herramientas distintas para desarrollar sus actividades.
 
-Se deben responder ciertas preguntas:
+# 4. Planificación de proyectos
+
+Se deben responder ciertas preguntas para poner planificar un proyecto:
 
 - ¿Qué hay que hacer?
+	- Se responde teniendo en cuanta los objetivos y el alcance del trabajo a realizar.
 - ¿Cómo hay que hacerlo?
+	- Metodologías y estrategias que vamos a emplear para conseguir los objetivos propuestos.
 - ¿Quién debe hacerlo?
+	- Los responsables de llevar cada tarea adelante.
 - ¿Cuando hay que hacerlo?
+	- Se responde con una programación, a cada tarea se le fija una fecha de realización.
 - ¿Cuanto cuesta?
+	- Se fijan costos para cada actividad y se elabora un presupuesto del proyecto.
 
-## 3.1. Pasos en la planificación
+## 4.1. Pasos en la planificación
 
-1. Definir el problema -> fijamos objetivos y se definen los alcances.
+1. Definir el problema que debe resolver el proyecto -> fijamos objetivos y se definen los alcances.
 2. Estructura de desglose -> identificar las tareas individuales que componen el proyecto.
 3. Calcular *costos, duración y recursos* para cada actividad.
-4. Elaborar un *programa maestro* -> identificamos las relaciones de tiempo entre las tareas, se puede usar CPM o PERT.
+4. Elaborar un *programa maestro* -> identificamos las relaciones de tiempo entre las tareas y con un diagrama de redes o utilización de software nos diga la fecha más temprana de finalización del proyecto, se puede usar CPM o PERT para el calculo de esta fecha.
 5. Elaborar un *presupuesto global* del proyecto.
 
-### 3.1.1. Identificación de las tareas individuales
+## 4.2. Identificación de las tareas individuales
+
+Los proyectos terminados consisten en diversas tareas individuales. Para analizar los proyectos, primero debemos identificar esas tareas. Estas pueden variar tanto en el tiempo requerido para concluirlas como en su complejidad.
 
 1. Cada tarea debe tener un comiendo y un final claros en el contexto del proyecto.
 2. La terminación de cada tarea debe ser necesaria para la conclusión del proyecto.
 3. El tamaño de una tarea debe estar en proporción con el control que usted pueda ejercer.
 
-### 3.1.2. Obtención de estimaciones de tiempo para cada tarea
+## 4.3. Obtención de estimaciones de tiempo para cada tarea
 
 El tiempo total que lleva completar todo el proyecto depende de cuanto tiempo lleva realizar cada tarea individual. Se debe obtener el tiempo requerido para cada tarea, esto se puede hacer:
 
@@ -54,55 +67,84 @@ El tiempo total que lleva completar todo el proyecto depende de cuanto tiempo ll
 2. Consultando con las personas a cargo de cada tarea individual.
 3. Usando datos anteriores.
 
-# 4. Red de proyecto
+# 5. Creación de la tabla de precedencia para el proyecto
 
-Una red de proyecto se utiliza para comprender de una mejor forma las relaciones entre las tareas individuales. Una red consiste en una colección infinita de *nodos* y *flechas*. Una flecha conecta un nodo con otro.
+El tiempo de conclusión total *no* es igual a la suma de los tiempos de las tareas individuales ya que algunas tareas se pueden realizar simultáneamente. Otras no pueden comenzar hasta que ciertas tareas anteriores no hayan sido concluidas. Debemos conocer las tareas y como se relacionan entre si, para ello podemos construir una tabla que nos indique el tiempo individual de cada tarea y sus predecesoras inmediatas.
 
-# 5. Administración de proyectos usando tiempos determinísticos (CPM)
+# 6. Red de proyecto
+
+Uno de los objetivos principales de la administración de proyectos es determinar la cantidad mínima de tiempo requerido para terminar todo el proyecto. La identificación de las relaciones de precedencia entre las tareas individuales, como en la tabla anterior, es un primer paso en esa dirección. Una comprensión todavía mejor de estas relaciones puede obtenerse convirtiendo la información de precedencia en una *red de proyecto* Una red consiste en una colección finita de *nodos* y *flechas*. Una flecha conecta un nodo con otro.
+
+# 7. Administración de proyectos usando tiempos determinísticos (CPM)
 
 Nos interesa responder las siguientes preguntas:
 
 1. ¿Qué tan pronto puede completarse todo el proyecto?
 2. ¿Qué tareas son críticas? Las tareas críticas son las que generan un retraso en la conclusión del proyecto.
 
-# 6. Determinación del tiempo de proyecto
+# 8. Determinación del tiempo de proyecto
 
 Para encontrar este tiempo siempre se arranca desde el principio, determinando, para cada tarea, lo siguiente:
 
 1. El *tiempo de inicio más inmediato* es el tiempo más inmediato en que esa tarea puede iniciarse.
 2. El *tiempo de terminación más breve* es el tiempo más breve en el que esa tarea puede concluir.
 
-- Regla 1: para calcular el tiempo de inicio de una tarea particular, debe conocer los tiempos de terminación de cada tarea predecesora inmediata.
-- Regla 2: el tiempo de inicio más inmediato de una tarea de la que se conocen los tiempos de terminación de todas sus tareas predecesoras inmediatas es el máximo de esos tiempos de terminación.
-- Regla 3: tiempo de terminación más breve = tiempo de inicio más inmediato + tiempo de tarea.
-- Regla 4: para calcular el último tiempo de terminación de una tarea particular, debemos conocer los últimos tiempos de inicio de cada tarea sucesora inmediata.
-- Regla 5: respecto a una tarea de la que se conocen los últimos tiempos de inicio de todas sus tareas sucesoras inmediatas, el último tiempo de terminación de esa tarea es el mínimo de los últimos tiempos de inicio de todas las tareas sucesoras inmediatas.
-- Regla 6: ultimo tiempo de inicio = ultimo tiempo de terminación - tiempo de tarea.
+- *Regla 1*: para calcular el tiempo de inicio de una tarea particular, debe conocer los tiempos de terminación de cada tarea predecesora inmediata.
+- *Regla 2*: el tiempo de inicio más inmediato de una tarea de la que se conocen los tiempos de terminación de todas sus tareas predecesoras inmediatas es el máximo de esos tiempos de terminación.
+- *Regla 3*:
+$$
+\text{Tiempo terminación más breve} = \text{Tiempo inicio inmediato}+\text{Tiempo tarea}
+$$
+- *Regla 4*: para calcular el último tiempo de terminación de una tarea particular, debemos conocer los últimos tiempos de inicio de cada tarea sucesora inmediata.
+- *Regla 5*: respecto a una tarea de la que se conocen los últimos tiempos de inicio de todas sus tareas sucesoras inmediatas, el último tiempo de terminación de esa tarea es el mínimo de los últimos tiempos de inicio de todas las tareas sucesoras inmediatas.
+- *Regla 6*:
+$$
+\text{Ultimo tiempo inicio} = \text{Ultimo tiempo terminación}-\text{Tiempo tarea}
+$$
 
-# 7. Identificar las tareas críticas
+# 9. Identificar las tareas críticas
 
-Crítica significa que un retraso en cualquiera de estas tareas ocasiona un retraso en todo el proyecto, los retrasos ocasionan costos adicionales, ingresos perdidos e inclumplimiento de las obligaciones contractuales.
+Crítica significa que un retraso en cualquiera de estas tareas ocasiona un retraso en todo el proyecto, los retrasos ocasionan costos adicionales, ingresos perdidos e incumplimiento de las obligaciones contractuales.
 
-Debemos calcular lo siguiente:
+Debemos calcular lo siguiente para cada tarea:
 
 1. *El último tiempo de terminación* que es lo más tarde que puede concluirse una tarea mientras permita que el proyecto se complete lo más pronto posible.
 2. *El último tiempo de inicio* que es lo más tarde que puede iniciarse una tarea, de tal forma que finalice en su último tiempo de terminación.
 
-Cualquier actividad cuyo último tiempo de inicio sea igual que su tiempo de inicio más inmediato calculado en la sección anterior es crítica.
+***Cualquier actividad cuyo último tiempo de inicio sea igual que su tiempo de inicio más inmediato calculado en la sección anterior es crítica.***
 
-%% MEZCLAR ESTA SECCIÓN CON LAS REGLAS ANTERIORES %%
+Habiendo hecho uso de las "reglas" y los cálculos, podemos identificar las tareas críticas y no críticas, para cada tarea calculamos el *tiempo de retraso* que es la diferencia entre los tiempos de inicio últimos y más inmediatos:
 
-Habiendo hecho uso de las "reglas" y los calculos pertinentes, podemos identificar las tareas críticas y no críticas, para cada tarea calculamos el *tiempo de retraso* que es la diferencia entre los tiempos de inicio últimos y más inmediatos: tiempo de retraso = ultimo tiempo de inicio - tiempo de inicio más inmediato.
+$$
+\text{Tiempo retraso (holgura)} = \text{Ultimo tiempo inicio}-\text{Tiempo inicio más inmediato}
+$$
 
 Los tiempos de retraso que ubicaremos en una tabla, representan la cantidad de tiempo según la cual la tarea correspondiente puede retrasarse sin retrasar todo el proyecto, *suponiendo que todas las demás tareas se realizan a tiempo*.
 
-# 8. Administración de proyectos usando tiempos de tarea probabilísticos (PERT)
+# 10. Técnicas de choque*
 
-Cuando un proyceto está formadoo por actividades que en su mayoría son similares a otras ya realizadas un gran número de veces, generalmente se utiliza la programación CPM, pero cuando hay actividades para la cuales no tenemox experiencia en la dificultad sobre la estimación de la duración de las tareas es significativa, en este caso se puede conjeturar basandose en cualquier experiencia.
+En muchos proyectos la gerencia puede decidir que el tiempo de conclusión más breve no es aceptable. En tales casos, a menudo pueden usarse recursos adicionales para agilizar ciertas tareas, ocasionando una conclusión más temprana del proyecto. En este caso puede formularse un modelo de programación lineal para determinar las tareas que deben agilizarse para lograr un tiempo de conclusión deseado, y a qué costo.
+
+## 10.1. Obtención de datos de costos adicionales para las tareas*
+
+¿Qué tareas del proyecto pueden acortarse y en cuánto? Claro está que acortar las tareas requiere recursos adicionales, como el pago de tiempos extra, personal adicional y/o subcontrataciones. Por lo tanto, los primeros pasos son enumerar, para cada tarea:
+
+1.  ***El tiempo de choque***, esto es, el tiempo mínimo posible en el que la tarea puede concluirse de manera realista usando recursos adicionales.
+2. ***El costo de los recursos adicionales*** necesarios para acortar el tiempo de tarea a cualquier valor entre sus tiempos normales y de choque.
+
+Para obtener el tiempo de choque se puede consultar con las personas que están directamente involucradas en la terminación de cada tarea para determinar de que forma y con que recursos se pueden acortar dichas tareas y en que valor.
+
+Para armar el modelo de programación lineal se supone que los costos varían linealmente en el periodo en que se puede realizar la tarea. Se toman como variables de decisión los tiempos en que se pueden acortar las tareas con las restricciones correspondientes y se arma la función objetivo como la suma de los productos de las variables de decisión por el correspondiente costo unitario. Esta función objetivo es la que hay que minimizar y resolver para determinar cual variable (tarea) nos conviene acortar.
+
+# 11. Administración de proyectos usando tiempos de tarea probabilísticos (PERT)
+
+Cuando un proyecto está formado por actividades que en su mayoría son similares a otras ya realizadas un gran número de veces, generalmente se utiliza la programación CPM.
+
+Sin embargo, cuando en un proyecto predominan actividades para las que no existe experiencia la dificultad sobre la estimación de la duración de las tareas es significativa. En este caso lo único que se puede hacer es conjeturar basándose en cualquier experiencia que se tenga. Generalmente los proyectos de investigación y desarrollo tienen esta característica.
 
 En respuesta a este problema se desarrollo el sistema PERT que tiene en cuenta un intervalo de duración y la probabilidad que la duración de una actividad esté en ese intervalo. El modelo PERT clásico supone que las duraciones de las tareas son variables aleatorias estadísticamente independientes que siguen una distribución beta.
 
-El proceso de estimar la duración de las actividades del Cronograma utiliza información sobre el alcance del trabajo de la actividad. Así como sobre los tipos de recursos necesarios, las cantidades de recursos estimadas y los calendarios de disponibilidad de recursos. Las entradas para realizar las estimaciones de la duración de las actividades suelen partir de las personas del equipo del Proyecto que estén más familiarizadas con la naturaleza del contenido del trabajo de la actividad.
+El proceso de estimar la duración de las actividades del cronograma utiliza información sobre el alcance del trabajo de la actividad. Así como sobre los tipos de recursos necesarios, las cantidades de recursos estimadas y los calendarios de disponibilidad de recursos. Las entradas para realizar las estimaciones de la duración de las actividades suelen partir de las personas del equipo del Proyecto que estén más familiarizadas con la naturaleza del contenido del trabajo de la actividad.
 
 La estimación de la duración se elabora de forma gradual, y el proceso evalúa la calidad y disponibilidad de los datos de partida. Por ejemplo, a medida que se desarrollan la ingeniería del producto y el trabajo de diseño, se dispone de datos más detallados y precisos, por lo que mejora la exactitud de las estimaciones de la duración. De esta manera, la estimación de la duración será cada vez más exacta y de mejor calidad conforme se avance en el Proyecto.
 
@@ -165,7 +207,7 @@ $$
 \sum_{}^{}\sigma^{2}
 $$
 
-# 9. Estimación de los tiempos de terminación de tareas
+# 12. Estimación de los tiempos de terminación de tareas
 
 Los tiempos de terminación de estas tareas son bastantes variables debido a la incertidumbre de las condiciones climatológicas, la obtención de suministros, el mantenimiento de las relaciones laborales, etc. Así pues, una sola estimación del tiempo requiere el conocimiento de la *distribución de probabilidad* de los tiempos de terminación de cada tarea.
 
@@ -181,7 +223,7 @@ Para una distribución beta, estas tres estimaciones de tiempos se combinan para
 
 Tiempo de tarea esperado es la media.
 
-# 10. Analaisis probabilistico del tiempo de terminacion de proyectos
+# 13. Analaisis probabilistico del tiempo de terminacion de proyectos
 
 Recordemos que el tiempo de terminación del proyecto calculado en la sección anterior es el tiempo de terminación *esperado*.  El tiempo de terminación real puede variar debido a que los mismos tiempos de terminación de las tareas son variables. Puesto que el tiempo de terminación esperado de 30 semanas, hasta cierto grado, no es confiable, el gerente de construcción deberá hacerse preguntas como las siguientes:
 
@@ -203,15 +245,32 @@ Tiempo esperado de terminación de proyectos = suma de los tiempos esperados de 
 
 Varianza del tiempo de terminación del proyecto = suma de las varianzas de los tiempos de terminación de las tareas a lo largo de esa trayectoria crítica.
 
-# 11. Ruta critica
+# 14. Ruta critica
 
 La ruta critica siempre es la misma.
 
-# 12. Varianza
+# 15. Varianza
 
 La media es el promedio de un valor, la desv. estandar es que tan lejos estamos de la media, la varianza es la dispersión de los datos.
 
-# 13. Seguimiento de proyectos (poner en una hoja aparte)
+# 16. CPM o PERT
+
+La principal diferencia entre el método de PERT y la ruta crítica CPM es el nivel de certeza en torno a la duración de las actividades.
+
+| CPM                                                                                               | PERT                                                                                                                            |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Modelo determinista                                                                               | Modelo probabilístico                                                                                                           |
+| Gestiona las actividades predecibles del proyecto                                                 | Gestiona actividades inciertas del proyecto                                                                                     |
+| Enfoque en compensaciones de tiempo-costo                                                         | Enfoque en alcanzar o minimizar la duración de un proyecto                                                                      |
+| Estimación única para cada actividad (una duración determinada), tenemos un tiempo determinístico | Tiene tres estimaciones para cada actividad, usaremos una *distribución beta* para determinar el tiempo de duración de la tarea |
+
+Ambos analizan los siguientes componentes:
+
+- Lista de tareas necesarias.
+- Duración estimada de cada tarea.
+- Dependencias de las tareas.
+
+# 17. Seguimiento de proyectos (poner en una hoja aparte)
 
 En la mayoría de los proyectos, el personal no sabe medir con realismo el rendimiento del trabajo.
 

@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "098b0b5622215300",
+            "id": "dec4a17676167d9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laboratorios Fisica/2025/Laboratorios 2025.md",
+                "file": "Investigacion operativa/Proyectos teoría.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Laboratorios 2025"
+              "title": "Proyectos teoría"
             }
           }
         ]
@@ -48,52 +48,26 @@
             }
           },
           {
-            "id": "36b7569ec20c0a18",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "fcba49812a07e825",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
             "id": "8cd038f283faba64",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
+                "file": "Investigacion operativa/Proyectos teoría.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Trabajo practico N°1"
+              "title": "Outline of Proyectos teoría"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 266.51103591918945
+    "width": 266.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "1c452a79782d57bf",
@@ -168,14 +142,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "098b0b5622215300",
+  "active": "dec4a17676167d9f",
   "lastOpenFiles": [
+    "Investigacion operativa/Introducción.md",
+    "Investigacion operativa/Excalidraw/metodologia de la inv. operativa.md",
+    "Investigacion operativa/Excalidraw",
+    "Investigacion operativa/Untitled.md",
+    "Investigacion operativa/Proyectos teoría.md",
+    "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
+    "Laboratorios Fisica/2025/Laboratorios 2025.md",
     "Mantenimiento/Excalidraw/mantenimiento_DB.md",
     "Mantenimiento/To-Do.md",
     "Mantenimiento/Mantenimiento.md",
     "Base de datos avanzada",
     "Administración de sistemas/TP N°3.md",
-    "Investigacion operativa/Trabajos practicos/Trabajo practico N°1.md",
     "Investigacion operativa/Imagenes/imagen ejercicio 5.png",
     "Investigacion operativa/Trabajos practicos/Excalidraw/ej n1 red de proyectos.md",
     "Investigacion operativa/Dudas.md",
@@ -184,7 +164,6 @@
     "Investigacion operativa/Imagenes/dudas inv operativa.png",
     "Pasted image 20250413210207.png",
     "Pasted image 20250413210203.png",
-    "Investigacion operativa/Proyectos teoría.md",
     "Administración de sistemas/TP N°3 - Indicadores y KPIs.md",
     "Administración de sistemas/Imagenes/columna_total.png",
     "Administración de sistemas/Imagenes/datos_ordenados_por_fecha.png",
@@ -194,7 +173,6 @@
     "Mantenimiento/Excalidraw/mantenimiento_interfaz.md",
     "Mantenimiento/Excalidraw/mantenimiento_funcionamiento.md",
     "Mantenimiento/Excalidraw/mantenimiento_ejemplo.md",
-    "Laboratorios Fisica/2025/Laboratorios 2025.md",
     "Laboratorios Fisica/2025",
     "Laboratorios Fisica",
     "Mantenimiento/Canvas/Untitled.canvas",
@@ -204,7 +182,6 @@
     "Investigacion operativa/Trabajos practicos/Canvas/Untitled.canvas",
     "Investigacion operativa/Trabajos practicos/Excalidraw/diagrama red ej n3.md",
     "Investigacion operativa/Trabajos practicos/Canvas",
-    "Investigacion operativa/Trabajos practicos/Excalidraw",
     "Excalidraw/Mantenimiento 2025-04-06 00.33.45.excalidraw.md",
     "Excalidraw/Mantenimiento 2025-04-06 00.25.38.excalidraw.md",
     "Excalidraw/Drawing 2025-04-06 00.24.57.excalidraw.md",

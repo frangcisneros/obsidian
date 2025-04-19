@@ -2,3 +2,13 @@ body {
   --list-marker-color: var(--text-normal) !important;
   --text-formatting: var(--text-normal) !important;
 }
+
+/* Negrita en vista de edición (Live Preview) */
+.markdown-source-view .cm-hmd-list-marker {
+  font-weight: bold !important;
+}
+
+/* Negrita en vista previa y exportación */
+.markdown-preview-view ol > li::marker {
+  font-weight: bold !important;
+}

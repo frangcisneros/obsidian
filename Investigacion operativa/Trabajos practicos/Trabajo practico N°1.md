@@ -15,23 +15,31 @@ La ruta crítica es: A -> C -> E -> F -> J -> L -> M -> P -> Q -> S -> T
 3. Cuál es el tiempo mínimo de conclusión del proyecto mediante el método PERT.
 Calculamos la media de los tiempos de la ruta crítica:
 
-| TAREA | A    | M    | B    | MEDIA       |
-|-------|------|------|------|-------------|
-| A     | 0.4  | 1.1  | 1.7  | 1.083333333 |
-| C     | 0.55 | 0.95 | 1.5  | 0.975       |
-| E     | 2    | 3.2  | 4    | 3.133333333 |
-| F     | 3    | 3.7  | 4.2  | 3.666666667 |
-| J     | 2.5  | 3.7  | 6.8  | 4.016666667 |
-| L     | 1.8  | 2.1  | 2.5  | 2.116666667 |
-| M     | 1.5  | 2.3  | 2.7  | 2.233333333 |
-| P     | 0.08 | 0.11 | 0.12 | 0.106666667 |
-| Q     | 0.3  | 0.48 | 0.52 | 0.456666667 |
-| S     | 0.7  | 0.9  | 1.5  | 0.966666667 |
-| T     | 1.8  | 2.1  | 2.4  | 2.1         |
+| TAREA | A    | M    | B    | MEDIA       | DESV. ESTANDAR |
+|-------|------|------|------|-------------|----------------|
+| A     | 0.4  | 1.1  | 1.7  | 1.083333333 | 0.216666667    |
+| C     | 0.55 | 0.95 | 1.5  | 0.975       | 0.158333333    |
+| E     | 2    | 3.2  | 4    | 3.133333333 | 0.333333333    |
+| F     | 3    | 3.7  | 4.2  | 3.666666667 | 0.2            |
+| J     | 2.5  | 3.7  | 6.8  | 4.016666667 | 0.716666667    |
+| L     | 1.8  | 2.1  | 2.5  | 2.116666667 | 0.116666667    |
+| M     | 1.5  | 2.3  | 2.7  | 2.233333333 | 0.2            |
+| P     | 0.08 | 0.11 | 0.12 | 0.106666667 | 0.006666667    |
+| Q     | 0.3  | 0.48 | 0.52 | 0.456666667 | 0.036666667    |
+| S     | 0.7  | 0.9  | 1.5  | 0.966666667 | 0.133333333    |
+| T     | 1.8  | 2.1  | 2.4  | 2.1         | 0.1            |
 
 El tiempo mínimo entonces es = 20.855
 
 4. Cuál es la probabilidad que el proyecto se termine en 23 días.
+Primero calculamos la desv. estándar de la ruta crítica (sumando todas las desviaciones estandar):
+
+$$
+\sigma = 2.218
+$$
+
+Entonces:
+
 5. Indique la Ruta Critica
 6. Cuál es el tiempo TOTAL que dispone para la realización de las actividades "Coordinación de ubicación de postes" y "Desenergización y conmutación de líneas"
 7. Si para "Cubrir conductores antiguos" se demoran 5 días, cual es el tiempo de conclusión del proyecto.
