@@ -16,6 +16,14 @@ La *sucesión de tareas* que definen al proyecto *no se repiten en el futuro y n
 
 Todas las tareas tienen una predecesora y una sucesora excepto la primera y la ultima.
 
+## 1.4. Diferencia entre proceso y proyecto
+
+Principalmente en el proceso tenemos una estructura, en los proyectos tenemos un lugar físico donde todo pasa en este y termina siendo el objetivo. La planificación de un proceso es muy distinta a la planificación de proyectos.
+
+## 1.5. Características
+
+**No se repite en el futuro ni en el pasado**: no se deben haber repetido con anterioridad exactamente en las mismas condiciones. Hay proyectos que, si bien tienen las mismas actividades que un proyecto pasado, por ej. la construcción de una casa, cambian las condiciones en las que se lleva a cabo el proyecto, por ej. los recursos humanos, las situaciones presupuestarias, las condiciones del tiempo, la compartición de recursos, etc.
+
 # 2. Ejemplos de proyectos
 
 Las posibilidades son ilimitadas y van desde cualquier trabajo, desde el que hacemos todos los días hasta los proyectos más complicados y de mayor envergadura.
